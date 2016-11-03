@@ -1,8 +1,9 @@
 /*
+    Welcome to Java!
     Solution for hackerrank challenge
     Language : Java
     Author : Jan Helmle
-*/
+ */
 public class Solution {
 
     public static void main(String[] args) {
@@ -10,5 +11,4 @@ public class Solution {
         System.out.println("Hello, Java.");
     }
 }
-
 
