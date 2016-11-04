@@ -1,0 +1,8 @@
+/* 
+   Japanese Cities' Names
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+select NAME from CITY
+where countrycode = 'JPN'
