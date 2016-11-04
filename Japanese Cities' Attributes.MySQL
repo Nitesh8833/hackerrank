@@ -4,5 +4,9 @@
    Language : MySQL
    Author : Jan Helmle 
 */
-select * from CITY
-where countrycode = 'JPN'
+SELECT 
+    *
+FROM
+    CITY
+WHERE
+    countrycode = 'JPN'

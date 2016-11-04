@@ -4,5 +4,10 @@
    Language : MySQL
    Author : Jan Helmle 
 */
-select NAME from CITY 
-where population > 120000 and COUNTRYCODE = 'USA'
+SELECT 
+    NAME
+FROM
+    CITY
+WHERE
+    population > 120000
+        AND COUNTRYCODE = 'USA'

@@ -4,4 +4,7 @@
    Language : MySQL
    Author : Jan Helmle 
 */
-select * from CITY
+SELECT 
+    *
+FROM
+    CITY
