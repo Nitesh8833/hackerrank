@@ -1,0 +1,8 @@
+/* 
+   Revising the Select Query II 
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+select NAME from CITY 
+where population > 120000 and COUNTRYCODE = 'USA'
