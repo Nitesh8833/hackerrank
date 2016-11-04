@@ -1,0 +1,15 @@
+
+/* 
+   Weather Observation Station 4  
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+SELECT 
+    (SELECT 
+            COUNT(city)
+        FROM
+            station) - (SELECT 
+            COUNT(DISTINCT city)
+        FROM
+            station)
