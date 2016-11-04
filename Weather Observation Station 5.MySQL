@@ -4,18 +4,14 @@
    Language : MySQL
    Author : Jan Helmle 
 */
-(
-    select city , length(city) 
-from station 
-order by length(city) desc
-limit 1
-)
-
-union 
-
-(
-    select city , length(city) 
-from station 
-order by length(city) asc
-limit 1
-)
+(SELECT 
+    city, LENGTH(city)
+FROM
+    station
+ORDER BY LENGTH(city) DESC
+LIMIT 1) UNION (SELECT 
+    city, LENGTH(city)
+FROM
+    station
+ORDER BY LENGTH(city) ASC
+LIMIT 1)
