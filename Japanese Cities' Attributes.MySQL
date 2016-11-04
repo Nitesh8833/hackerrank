@@ -1,0 +1,8 @@
+/* 
+   Japanese Cities' Attributes  
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+select * from CITY
+where countrycode = 'JPN'
