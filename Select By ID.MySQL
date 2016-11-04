@@ -1,0 +1,8 @@
+/* 
+   Select By ID 
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+select * from CITY 
+where ID = 1661
