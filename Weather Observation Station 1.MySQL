@@ -4,4 +4,8 @@
    Language : MySQL
    Author : Jan Helmle 
 */
-select CITY, STATE from STATION
+SELECT 
+    CITY, STATE
+FROM
+    STATION
+    
