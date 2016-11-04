@@ -1,0 +1,7 @@
+/* 
+   Weather Observation Station 1 
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+select CITY, STATE from STATION
