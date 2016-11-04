@@ -1,0 +1,8 @@
+/* 
+   Weather Observation Station 3 
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+select distinct CITY from STATION
+where mod(ID,2) = 0 
