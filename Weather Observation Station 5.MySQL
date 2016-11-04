@@ -1,0 +1,21 @@
+/* 
+   Weather Observation Station 5
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+(
+    select city , length(city) 
+from station 
+order by length(city) desc
+limit 1
+)
+
+union 
+
+(
+    select city , length(city) 
+from station 
+order by length(city) asc
+limit 1
+)
