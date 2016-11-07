@@ -1,0 +1,15 @@
+/* 
+   African Cities  
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+SELECT 
+    city.name
+FROM
+    city
+        JOIN
+    country ON city.countrycode = country.code
+WHERE
+    country.continent = 'Africa'
+
