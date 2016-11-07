@@ -1,0 +1,13 @@
+/* 
+   Employee Salaries 
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+SELECT 
+    name
+FROM
+    Employee
+WHERE
+    salary > 2000 AND months < 10
+    
