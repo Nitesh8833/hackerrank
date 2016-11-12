@@ -1,0 +1,10 @@
+/* 
+   Weather Observation Station 2
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+SELECT 
+    ROUND(SUM(lat_n), 2), ROUND(SUM(long_w), 2)
+FROM
+    station
