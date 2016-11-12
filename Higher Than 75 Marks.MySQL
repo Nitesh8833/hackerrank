@@ -1,0 +1,13 @@
+/* 
+   Higher Than 75 Marks
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+SELECT 
+    name
+FROM
+    students
+WHERE
+    marks > 75
+ORDER BY RIGHT(name, 3) , id
