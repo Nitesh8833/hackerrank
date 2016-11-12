@@ -1,0 +1,15 @@
+/* 
+   Asian Population
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+SELECT 
+    SUM(city.population)
+FROM
+    city
+        JOIN
+    country ON countrycode = code
+WHERE
+    continent = 'asia'
+
