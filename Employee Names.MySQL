@@ -1,0 +1,11 @@
+/* 
+   Employee Names
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+SELECT 
+    name
+FROM
+    employee
+ORDER BY name
