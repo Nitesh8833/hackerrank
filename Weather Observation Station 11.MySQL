@@ -1,0 +1,14 @@
+/* 
+   Weather Observation Station 11
+   Solution for hackerrank challenge
+   Language : MySQL
+   Author : Jan Helmle 
+*/
+SELECT DISTINCT
+    city
+FROM
+    station
+WHERE
+    NOT LEFT(city, 1) IN ('A' , 'E', 'I', 'O', 'U')
+        OR NOT RIGHT(city, 1) IN ('A' , 'E', 'I', 'O', 'U')
+ORDER BY city
